@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<html lang="pt-BR" class="focus-outline-visible"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autistas em Diálogo</title>
@@ -55,6 +53,28 @@
             padding: 50px 20px;
         }
 
+        .autismo {
+            background-color: #80cbc4; /* Tom entre azul e verde */
+            color: #004d40; /* Verde escuro */
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .autismo h2 {
+            margin-bottom: 15px;
+        }
+
+        .autismo p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .autismo .subsection {
+            margin-top: 20px;
+        }
+
         .videos {
             display: flex;
             flex-wrap: wrap;
@@ -76,6 +96,44 @@
             height: 169px; /* Proporção 16:9 */
             border: none;
             border-radius: 5px;
+        }
+
+        .ebooks {
+            background-color: #b2dfdb; /* Azul verde claro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .ebook-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px auto;
+            display: inline-block;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .ebook-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .ebook-item p {
+            margin-bottom: 20px;
+        }
+
+        .ebook-item button {
+            background-color: #00796b; /* Verde médio */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .ebook-item button:hover {
+            background-color: #004d40; /* Verde escuro */
         }
 
         .team {
@@ -119,23 +177,56 @@
     </header>
     <nav>
         <a href="#home">Início</a>
+        <a href="#autismo">Informações</a>
         <a href="#videos">Vídeos</a>
+        <a href="#ebooks">Ebooks</a>
         <a href="#about">Criadores</a>
     </nav>
     <section id="home" class="hero">
         <h2>Autistas em Diálogo</h2>
         <p>Explore e aprenda mais sobre o autismo através de nossos vídeos informativos e inspiradores.</p>
     </section>
+    <section id="autismo" class="autismo">
+        <h2>Informações sobre Autismo</h2>
+        <p>O autismo, também conhecido como Transtorno do Espectro Autista (TEA), é uma condição que afeta o desenvolvimento neurológico e pode impactar a comunicação, comportamento e interação social.</p>
+        <p>Cada pessoa com autismo é única, apresentando diferentes níveis de habilidades e desafios. O diagnóstico precoce e o apoio adequado são fundamentais para promover o desenvolvimento e a inclusão dessas pessoas na sociedade.</p>
+        
+        <div class="subsection">
+            <h3>Como as mães podem entender suas crianças autistas</h3>
+            <p>Entender o autismo de seu filho é um processo contínuo que exige paciência e educação. Mães de crianças autistas podem beneficiar-se de se informar sobre as características do espectro autista, buscar apoio profissional e conectar-se com outras famílias que vivem experiências semelhantes.</p>
+            <p>É importante que as mães estejam atentas aos sinais de estresse e sobrecarga em seus filhos, e que desenvolvam estratégias para lidar com comportamentos desafiadores de maneira calmante e compreensiva. O autocuidado para as mães também é crucial, garantindo que elas possam oferecer o melhor suporte possível às suas crianças.</p>
+        </div>
+    </section>
     <section id="videos" class="videos">
         <div class="video">
             <h3>Vídeo 1</h3>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/N9e6TIiHWnQ" allowfullscreen=""></iframe>
         </div>
         <div class="video">
             <h3>Vídeo 2</h3>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/xW-GXTUPepI" allowfullscreen=""></iframe>
         </div>
-        <!-- Adicione mais vídeos aqui conforme necessário -->
+        <div class="video">
+            <h3>Vídeo 3</h3>
+            <iframe src="https://www.youtube.com/embed/TknFlj_xUK4" allowfullscreen=""></iframe>
+        </div>
+    </section>
+    <section id="ebooks" class="ebooks">
+        <h2>Ebooks sobre Autismo</h2>
+        <div class="ebook-item">
+            <h3>Ebook 1: Compreendendo o Autismo</h3>
+            <p>Uma introdução abrangente ao autismo, com informações essenciais para pais, educadores e profissionais da saúde.</p>
+            <a href="https://www.amazon.com.br/Compreendendo-tratando-autismo-adrialdo-souza-ebook/dp/B09M4835QX" target="_blank">
+                <button>Comprar agora</button>
+            </a>
+        </div>
+        <div class="ebook-item">
+            <h3>Ebook 2: Estratégias para Inclusão</h3>
+            <p>Guia prático para implementar estratégias de inclusão em ambientes educacionais e sociais.</p>
+            <a href="https://www.amazon.com.br/Autismo-Inclus%C3%A3o-Psicopedagogia-pr%C3%A1ticas-educativas-ebook/dp/B08C83B3MV" target="_blank">
+                <button>Comprar agora</button>
+            </a>
+        </div>
     </section>
     <section id="about" class="team">
         <div class="team-info">
@@ -149,4 +240,9 @@
             <p>Kayky</p>
         </div>
     </section>
-   <
+    <footer>
+        
+    </footer>
+
+
+</body></html>
