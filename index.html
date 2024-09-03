@@ -3,78 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autistas em diálogo</title>
+    <title>Autistas em Diálogo</title>
     <style>
+        /* Reset básico para garantir uma aparência consistente entre navegadores */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #e0f7fa; /* Azul claro */
+            color: #004d40; /* Verde escuro */
         }
+
         header {
-            background-color: #ff5733;
+            background-color: #00796b; /* Verde médio */
             color: white;
             padding: 20px;
             text-align: center;
         }
+
         nav {
             display: flex;
             justify-content: center;
-            background-color: #c70039;
+            background-color: #004d40; /* Verde escuro */
             padding: 10px;
         }
+
         nav a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
         }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         section {
             padding: 20px;
         }
+
         .hero {
-            background-color: #900c3f;
+            background-color: #004d40; /* Verde escuro */
             color: white;
             text-align: center;
             padding: 50px 20px;
         }
-        .features, .subscribe {
+
+        .videos {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 20px 0;
         }
-        .feature, .subscribe-form {
+
+        .video {
             background-color: white;
             border: 1px solid #ddd;
             border-radius: 5px;
-            padding: 20px;
-            margin: 10px;
-            width: 45%;
-        }
-        .subscribe-form {
-            background-color: #581845;
-            color: white;
-            border: none;
-        }
-        .subscribe-form input, .subscribe-form button {
-            width: 100%;
-            margin: 5px 0;
             padding: 10px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 169px; /* Proporção 16:9 */
             border: none;
             border-radius: 5px;
         }
-        .subscribe-form input {
-            background-color: #333;
-            color: white;
-        }
-        .subscribe-form button {
-            background-color: #ff5733;
-            color: white;
-            cursor: pointer;
-        }
+
         footer {
-            background-color: #900c3f;
+            background-color: #00796b; /* Verde médio */
             color: white;
             text-align: center;
             padding: 10px;
@@ -86,46 +91,30 @@
 </head>
 <body>
     <header>
-        <h1>Autistass</h1>
+        <h1>Autistas em Diálogo</h1>
     </header>
     <nav>
         <a href="#home">Início</a>
-        <a href="#features">Funcionalidades</a>
-        <a href="#subscribe">Assine Agora</a>
+        <a href="#videos">Vídeos</a>
         <a href="#contact">Contato</a>
     </nav>
     <section id="home" class="hero">
-        <h2>Bem-vindo ao Nosso Serviço de Assinatura!</h2>
-        <p>Assista a vídeos exclusivos e muito mais!</p>
+        <h2>Bem-vindo ao Autistas em Diálogo</h2>
+        <p>Explore e aprenda mais sobre o autismo através de nossos vídeos informativos e inspiradores.</p>
     </section>
-    <section id="features" class="features">
-        <div class="feature">
-            <h3>Vídeos Exclusivos</h3>
-            <p>Desfrute de conteúdos que não estão disponíveis publicamente.</p>
+    <section id="videos" class="videos">
+        <div class="video">
+            <h3>Vídeo 1</h3>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
         </div>
-        <div class="feature">
-            <h3>Atualizações Constantes</h3>
-            <p>Receba novos vídeos regularmente e não perca nenhum lançamento.</p>
+        <div class="video">
+            <h3>Vídeo 2</h3>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
         </div>
-        <div class="feature">
-            <h3>Sem Anúncios</h3>
-            <p>Assista sem interrupções e com uma experiência sem anúncios.</p>
-        </div>
-        <div class="feature">
-            <h3>Comunidade</h3>
-            <p>Participe de uma comunidade engajada e compartilhe suas opiniões.</p>
-        </div>
-    </section>
-    <section id="subscribe" class="subscribe">
-        <div class="subscribe-form">
-            <h3>Assine Agora</h3>
-            <p>Entre para a nossa lista de assinantes e aproveite nossos benefícios!</p>
-            <input type="email" placeholder="Seu email" required>
-            <button type="submit">Assinar</button>
-        </div>
+        <!-- Adicione mais vídeos aqui conforme necessário -->
     </section>
     <footer>
-        <p>&copy; 2024 Assinatura de Vídeos YouTube. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Autistas em Diálogo. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
