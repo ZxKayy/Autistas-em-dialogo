@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura de Vídeos YouTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #c70039;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background-color: #900c3f;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .features, .subscribe {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .feature, .subscribe-form {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+        }
+        .subscribe-form {
+            background-color: #581845;
+            color: white;
+            border: none;
+        }
+        .subscribe-form input, .subscribe-form button {
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .subscribe-form input {
+            background-color: #333;
+            color: white;
+        }
+        .subscribe-form button {
+            background-color: #ff5733;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #900c3f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assinatura de Vídeos YouTube</h1>
+    </header>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#features">Funcionalidades</a>
+        <a href="#subscribe">Assine Agora</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <section id="home" class="hero">
+        <h2>Bem-vindo ao Nosso Serviço de Assinatura!</h2>
+        <p>Assista a vídeos exclusivos e muito mais!</p>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>Vídeos Exclusivos</h3>
+            <p>Desfrute de conteúdos que não estão disponíveis publicamente.</p>
+        </div>
+        <div class="feature">
+            <h3>Atualizações Constantes</h3>
+            <p>Receba novos vídeos regularmente e não perca nenhum lançamento.</p>
+        </div>
+        <div class="feature">
+            <h3>Sem Anúncios</h3>
+            <p>Assista sem interrupções e com uma experiência sem anúncios.</p>
+        </div>
+        <div class="feature">
+            <h3>Comunidade</h3>
+            <p>Participe de uma comunidade engajada e compartilhe suas opiniões.</p>
+        </div>
+    </section>
+    <section id="subscribe" class="subscribe">
+        <div class="subscribe-form">
+            <h3>Assine Agora</h3>
+            <p>Entre para a nossa lista de assinantes e aproveite nossos benefícios!</p>
+            <input type="email" placeholder="Seu email" required>
+            <button type="submit">Assinar</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Assinatura de Vídeos YouTube. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
